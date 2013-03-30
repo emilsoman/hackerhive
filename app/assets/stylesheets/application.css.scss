@@ -1,0 +1,22 @@
+@import "bootstrap_overrides";
+
+//using 'amelia' bootswatch
+// First import journal variables
+@import "bootswatch/amelia/variables";
+
+// Then bootstrap itself
+@import "bootstrap";
+
+// Bootstrap body padding for fixed navbar
+
+// Responsive styles go here in case you want them
+@import "bootstrap-responsive";
+
+// And finally bootswatch style itself
+@import "bootswatch/amelia/bootswatch";
+
+//Import font awesome
+@import "font-awesome";
+
+// Whatever application styles you have go last
+@import "coderhive";

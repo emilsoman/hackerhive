@@ -1,0 +1,21 @@
+$backgroundImageUrl: "http://www.cageapp.com/public-assets/img/index/backgrounds/1.jpg";
+
+body {
+  background-image: url($backgroundImageUrl);
+}
+
+.sign-up {
+  background: #1c527d;
+  color: #fff;
+  width: 200px;
+  a {
+    text-decoration: none;
+  }
+}
+
+.home-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  text-align: center;
+}
