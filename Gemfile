@@ -15,6 +15,12 @@ group :development do
   gem "thin"
 end
 
+group :test, :development do
+  gem 'test-unit', :require => "test/unit"
+  gem "rspec-rails", ">= 2.11.0"
+  gem "factory_girl_rails", ">= 4.1.0"
+end
+
 
 # Gems used only for assets and not required
 # in production environments by default.
