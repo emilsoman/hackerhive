@@ -13,9 +13,17 @@ body {
   }
 }
 
-.home-center {
-  margin-left: auto;
-  margin-right: auto;
-  width: 350px;
+.fb-connect-button {
+  background-color: #3B5998;
+  color: white;
+}
+
+.supersize-me {
+  margin: 60px 0;
   text-align: center;
+  h1 {
+    font-size: 64px;
+    line-height: 1;
+    margin: 10px auto;
+  }
 }
