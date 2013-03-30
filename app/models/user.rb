@@ -5,6 +5,6 @@ class User < ActiveRecord::Base
   devise :omniauthable
 
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :email, :remember_me
+  attr_accessible :email, :remember_me, :provider, :uid
   # attr_accessible :title, :body
 end
