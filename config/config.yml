@@ -1,6 +1,8 @@
 default: &defaults
   facebook_app_id: '491638720898072'
   facebook_app_secret: '4da35d9e6745110ea95bb562cab9cd8e'
+  github_key: '98c13ee07d4812f123f3'
+  github_secret: '3e0bd8bf82920fe3627dd2b73193892213090860'
 
 development:
   <<: *defaults

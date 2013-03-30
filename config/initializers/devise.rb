@@ -1,4 +1,5 @@
 require "omniauth-facebook"
+require "omniauth-github"
 # Use this hook to configure devise mailer, warden hooks and so forth.
 # Many of these configuration options can be set straight in your model.
 Devise.setup do |config|
@@ -36,4 +37,5 @@ Devise.setup do |config|
   # up on your models and hooks.
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', :scope => 'user,public_repo'
   config.omniauth :facebook, AppConfig[:facebook_app_id], AppConfig[:facebook_app_secret]
+  config.omniauth :github, AppConfig[:github_key], AppConfig[:github_secret]
 end

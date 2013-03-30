@@ -13,9 +13,18 @@ body {
   }
 }
 
-.fb-connect-button {
-  background-color: #3B5998;
+@mixin connect-button {
   color: white;
+  width: 230px;
+}
+
+.facebook-connect-button {
+  @include connect-button;
+  background-color: #3B5998;
+}
+.github-connect-button {
+  @include connect-button;
+  background-color: #1AA752;
 }
 
 .supersize-me {
