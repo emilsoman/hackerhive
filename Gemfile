@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
+gem 'devise' #User management
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'omniauth-github'
 gem "koala" #For facebook stuff
 gem 'pg' #Postgres DB
 gem 'bootstrap-sass', '~> 2.3.1.0' # Twitter bootstrap
