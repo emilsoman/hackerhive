@@ -1,4 +1,1 @@
-HackerHive
-==========
-
-Insane app
+OAuth exercise
